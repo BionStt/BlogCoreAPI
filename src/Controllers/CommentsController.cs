@@ -22,6 +22,13 @@ namespace BlogCoreAPI.Controllers
         }
 
         // GET bca/comments
+        [HttpGet]
+        public ActionResult<IEnumerable<Comment>> Get()
+        {
+            return this.blogContext.Comments.ToList();
+        }
+
+        // GET bca/comments/5
         [HttpGet("{postId}")]
         public ActionResult<IEnumerable<Comment>> Get(int postId)
         {
