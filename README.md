@@ -9,33 +9,33 @@ You need the .NET Core 2.2 SDK (Download: https://dotnet.microsoft.com/download)
 # Posts:
 
 GET bca/posts
-*Get all Posts
+Get all Posts
 
 GET bca/posts/[PostID]
-*Get the Post with this PostID
+Get the Post with this PostID
 
 POST bca/posts
 *Post Data
 
 PUT bca/posts/[PostID]
-*Put Data at this PostID
+Put Data at this PostID
 
 DELETE bca/posts/[PostID]
-*Delete the Post with this PostID
+Delete the Post with this PostID
 
 # Comments:
 
 GET bca/comments
-*Get all Comments
+Get all Comments
 
 GET bca/comments/[PostID]
-*Get all Comments from the Post with this ID
+Get all Comments from the Post with this ID
 
 POST bca/comments/[PostID]
-*Post Comment to the Post with this PostID
+Post Comment to the Post with this PostID
 
 PUT bca/comments/[CommentID]
-*Put Comment at this CommentID
+Put Comment at this CommentID
 
 DELETE bca/comments/[CommentID]
-*Delete the Comment with this CommentID
+Delete the Comment with this CommentID
